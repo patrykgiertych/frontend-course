@@ -2,6 +2,7 @@
   /* border-top: 10px solid #1098ad; */
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* PAGE SECTIONS */
@@ -14,13 +15,13 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
 }
 
 .main-header {
   background-color: #f7f7f7;
-  background-color: rgb(143, 57, 57);
+
   padding: 20px 40px;
   margin-bottom: 60px;
 }
@@ -43,9 +44,7 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  /* padding-top: 50px;
-  padding-bottom: 50px; */
-  padding: 50px 0;
+  padding: 50px 40px;
   width: 500px;
 }
 
@@ -77,6 +76,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 p {
@@ -87,7 +87,6 @@ p {
 
 ul,
 ol {
-  margin-left: 50px;
   margin-bottom: 20px;
 }
 
@@ -117,6 +116,7 @@ li:last-child {
 
 .related {
   list-style: none;
+  margin-left: 0;
 }
 
 li:first-child {
@@ -230,4 +230,18 @@ nav {
   clear: both;
   content: "";
   display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
 }
